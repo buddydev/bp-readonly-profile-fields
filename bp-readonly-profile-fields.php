@@ -40,7 +40,7 @@ class BP_Readonly_Profile_Visibility {
 		
 		$levels['admin-editable'] = array(
 			'id'    => 'admin-editable',
-			'label' => __( 'Non Editable by User(visible to all)' )
+			'label' => __( 'Readonly' )
 		);
 	
 		return $levels;
